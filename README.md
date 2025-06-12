@@ -2,7 +2,7 @@
 简单的基于 flask 的 web 应用框架
 
 .
-├── app
+├── app                                                     #后端
 │   ├── config.py                                           #配置文件     
 │   ├── controllers                                         #参数校验，接口实现
 │   │   └── example_controller.py
