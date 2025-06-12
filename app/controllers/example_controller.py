@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from app.services import example_service
+from services import example_service
 
 def add():
     """两数求和接口实现"""

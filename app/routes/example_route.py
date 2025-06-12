@@ -1,5 +1,5 @@
 from flask import Blueprint
-from app.controllers import example_controller
+from controllers import example_controller
 
 calculator_bp = Blueprint('calculator', __name__)
 
