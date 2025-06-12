@@ -1,6 +1,7 @@
 # MiniFlask
 简单的基于 flask 的 web 应用框架
 
+## 项目结构
 .
 ├── app                                                     #后端
 │   ├── config.py                                           #配置文件     
@@ -15,3 +16,9 @@
 ├── README.md
 ├── requirements.txt                                        #依赖
 └── static                                                  #静态文件
+
+## Quick Start
+``` bash
+pip install -r requirements.txt
+python app/run.py
+```
